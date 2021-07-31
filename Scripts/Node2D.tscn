@@ -1,0 +1,600 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Scripts/Control.gd" type="Script" id=1]
+[ext_resource path="res://Scripts/green-white-border-3-shades.jpg" type="Texture" id=2]
+[ext_resource path="res://Scripts/isdagain.png" type="Texture" id=3]
+[ext_resource path="res://Scripts/S1.jpeg" type="Texture" id=4]
+[ext_resource path="res://Scripts/58568a5b4f6ae202fedf2713.png" type="Texture" id=5]
+[ext_resource path="res://Scripts/S2.jpeg" type="Texture" id=6]
+[ext_resource path="res://Scripts/S3.jpeg" type="Texture" id=7]
+[ext_resource path="res://Scripts/P1.jpeg" type="Texture" id=8]
+[ext_resource path="res://Scripts/P2.jpeg" type="Texture" id=9]
+[ext_resource path="res://Scripts/P3.jpeg" type="Texture" id=10]
+
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+margin_left = 240.069
+margin_top = 254.633
+margin_right = 280.069
+margin_bottom = 294.633
+script = ExtResource( 1 )
+
+[node name="Homepage" type="Node2D" parent="Control"]
+position = Vector2( -240.069, -254.633 )
+
+[node name="green-white-border-3-shades" type="Sprite" parent="Control/Homepage"]
+position = Vector2( 513.417, 300.035 )
+scale = Vector2( 1.71139, 1.19986 )
+texture = ExtResource( 2 )
+
+[node name="logo" type="Sprite" parent="Control/Homepage"]
+position = Vector2( 518.156, 151.061 )
+scale = Vector2( 0.0769867, 0.081299 )
+texture = ExtResource( 3 )
+
+[node name="S1" type="Button" parent="Control/Homepage"]
+margin_left = 240.069
+margin_top = 254.633
+margin_right = 412.069
+margin_bottom = 286.633
+rect_pivot_offset = Vector2( 86, 92.3669 )
+custom_colors/font_color = Color( 0, 1, 0.180392, 1 )
+text = "SEC 1st FLOOR"
+
+[node name="P1" type="Button" parent="Control/Homepage"]
+margin_left = 608.092
+margin_top = 253.141
+margin_right = 780.092
+margin_bottom = 285.141
+rect_pivot_offset = Vector2( 86, 92.3669 )
+custom_colors/font_color = Color( 0, 1, 0.180392, 1 )
+text = "PRI 1st FLOOR"
+
+[node name="S2" type="Button" parent="Control/Homepage"]
+margin_left = 238.961
+margin_top = 320.007
+margin_right = 410.961
+margin_bottom = 352.007
+rect_pivot_offset = Vector2( 86, 92.3669 )
+custom_colors/font_color = Color( 0, 1, 0.180392, 1 )
+text = "SEC 2nd FLOOR"
+
+[node name="P2" type="Button" parent="Control/Homepage"]
+margin_left = 606.984
+margin_top = 318.515
+margin_right = 778.984
+margin_bottom = 350.515
+rect_pivot_offset = Vector2( 86, 92.3669 )
+custom_colors/font_color = Color( 0, 1, 0.180392, 1 )
+text = "PRI 2nd FLOOR"
+
+[node name="S3" type="Button" parent="Control/Homepage"]
+margin_left = 238.961
+margin_top = 382.705
+margin_right = 410.961
+margin_bottom = 414.705
+rect_pivot_offset = Vector2( 86, 92.3669 )
+custom_colors/font_color = Color( 0, 1, 0.180392, 1 )
+text = "SEC 3rd FLOOR"
+
+[node name="P3" type="Button" parent="Control/Homepage"]
+margin_left = 606.984
+margin_top = 381.213
+margin_right = 778.984
+margin_bottom = 413.213
+rect_pivot_offset = Vector2( 86, 92.3669 )
+custom_colors/font_color = Color( 0, 1, 0.180392, 1 )
+text = "PRI 3rd FLOOR"
+
+[node name="floorslabel" type="Label" parent="Control/Homepage"]
+margin_left = 435.116
+margin_top = 161.329
+margin_right = 583.116
+margin_bottom = 271.329
+custom_colors/font_color = Color( 0, 1, 0.180392, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "FLOORS"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="creditslabel" type="Label" parent="Control/Homepage"]
+margin_left = 428.103
+margin_top = 420.092
+margin_right = 590.103
+margin_bottom = 530.092
+custom_colors/font_color = Color( 0, 1, 0.180392, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "Created By: Edaad Azman
+2020"
+align = 1
+valign = 1
+
+[node name="seperationline" type="Line2D" parent="Control/Homepage"]
+position = Vector2( 255.5, -6.99997 )
+scale = Vector2( 0.5, 1 )
+points = PoolVector2Array( 507, 259, 507, 438 )
+default_color = Color( 0, 0, 0, 1 )
+texture_mode = -890462079
+
+[node name="S1" type="Node2D" parent="Control"]
+visible = false
+position = Vector2( -240.069, -254.633 )
+
+[node name="S1" type="Sprite" parent="Control/S1"]
+position = Vector2( 511.789, 299.888 )
+rotation = 1.56698
+scale = Vector2( 0.235423, 0.293269 )
+texture = ExtResource( 4 )
+
+[node name="recyclelogo1" type="Sprite" parent="Control/S1"]
+position = Vector2( 366.472, 57.4737 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo2" type="Sprite" parent="Control/S1"]
+position = Vector2( 354.284, 545.008 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo3" type="Sprite" parent="Control/S1"]
+position = Vector2( 909.624, 48.6094 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo4" type="Sprite" parent="Control/S1"]
+position = Vector2( 171.288, 56.82 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="checkbox1" type="CheckBox" parent="Control/S1"]
+margin_left = 399.0
+margin_top = 45.0
+margin_right = 423.0
+margin_bottom = 69.0
+
+[node name="checkbox2" type="CheckBox" parent="Control/S1"]
+margin_left = 386.812
+margin_top = 532.535
+margin_right = 410.812
+margin_bottom = 556.535
+
+[node name="checkbox3" type="CheckBox" parent="Control/S1"]
+margin_left = 936.152
+margin_top = 36.1357
+margin_right = 960.152
+margin_bottom = 60.1357
+
+[node name="checkbox4" type="CheckBox" parent="Control/S1"]
+margin_left = 197.816
+margin_top = 44.3463
+margin_right = 221.816
+margin_bottom = 68.3463
+
+[node name="emptied1" type="Label" parent="Control/S1"]
+margin_left = 424.0
+margin_top = 51.0
+margin_right = 497.0
+margin_bottom = 70.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied2" type="Label" parent="Control/S1"]
+margin_left = 411.812
+margin_top = 538.535
+margin_right = 484.812
+margin_bottom = 557.535
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied3" type="Label" parent="Control/S1"]
+margin_left = 961.152
+margin_top = 42.1357
+margin_right = 1034.15
+margin_bottom = 61.1357
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied4" type="Label" parent="Control/S1"]
+margin_left = 222.816
+margin_top = 50.3463
+margin_right = 295.816
+margin_bottom = 69.3463
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="S2" type="Node2D" parent="Control"]
+visible = false
+rotation = 1.5708
+
+[node name="S2" type="Sprite" parent="Control/S2"]
+position = Vector2( 45.3704, -272.202 )
+scale = Vector2( 0.235333, 0.292202 )
+texture = ExtResource( 6 )
+
+[node name="recyclelogo5" type="Sprite" parent="Control/S2"]
+position = Vector2( -203.949, 58.7808 )
+rotation = -1.5708
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo6" type="Sprite" parent="Control/S2"]
+position = Vector2( 296.051, -395.22 )
+rotation = -1.5708
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo7" type="Sprite" parent="Control/S2"]
+position = Vector2( 294.367, 13.0684 )
+rotation = -1.5708
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="checkbox5" type="CheckBox" parent="Control/S2"]
+margin_left = -214.497
+margin_top = 41.2526
+margin_right = -190.497
+margin_bottom = 65.2526
+rect_rotation = -90.0
+
+[node name="checkbox6" type="CheckBox" parent="Control/S2"]
+margin_left = 286.051
+margin_top = -417.219
+margin_right = 310.051
+margin_bottom = -393.219
+rect_rotation = -90.0
+
+[node name="checkbox7" type="CheckBox" parent="Control/S2"]
+margin_left = 284.367
+margin_top = -11.9315
+margin_right = 308.367
+margin_bottom = 12.0685
+rect_rotation = -90.0
+
+[node name="emptied5" type="Label" parent="Control/S2"]
+margin_left = -207.949
+margin_top = 18.0686
+margin_right = -134.949
+margin_bottom = 37.0686
+rect_rotation = -90.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied6" type="Label" parent="Control/S2"]
+margin_left = 292.051
+margin_top = -444.22
+margin_right = 365.051
+margin_bottom = -425.22
+rect_rotation = -90.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied7" type="Label" parent="Control/S2"]
+margin_left = 290.367
+margin_top = -35.9317
+margin_right = 363.367
+margin_bottom = -16.9317
+rect_rotation = -90.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="S3" type="Node2D" parent="Control"]
+
+[node name="S3" type="Sprite" parent="Control/S3"]
+position = Vector2( 272.589, 45.4218 )
+rotation = -1.5708
+scale = Vector2( 0.236678, 0.292161 )
+texture = ExtResource( 7 )
+
+[node name="recyclelogo8" type="Sprite" parent="Control/S3"]
+position = Vector2( 661.931, -183.264 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo9" type="Sprite" parent="Control/S3"]
+position = Vector2( 193.031, -183.949 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo10" type="Sprite" parent="Control/S3"]
+position = Vector2( -208.781, 179.264 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo11" type="Sprite" parent="Control/S3"]
+position = Vector2( 74.2195, 316.051 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="checkbox8" type="CheckBox" parent="Control/S3"]
+margin_left = 683.219
+margin_top = -194.633
+margin_right = 707.219
+margin_bottom = -170.633
+
+[node name="checkbox9" type="CheckBox" parent="Control/S3"]
+margin_left = 214.319
+margin_top = -195.318
+margin_right = 238.319
+margin_bottom = -171.318
+
+[node name="checkbox10" type="CheckBox" parent="Control/S3"]
+margin_left = -220.069
+margin_top = 199.949
+margin_right = -196.069
+margin_bottom = 223.949
+
+[node name="checkbox11" type="CheckBox" parent="Control/S3"]
+margin_left = 95.5073
+margin_top = 304.682
+margin_right = 119.507
+margin_bottom = 328.682
+
+[node name="emptied8" type="Label" parent="Control/S3"]
+margin_left = 705.931
+margin_top = -190.497
+margin_right = 778.931
+margin_bottom = -171.497
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied9" type="Label" parent="Control/S3"]
+margin_left = 237.031
+margin_top = -191.182
+margin_right = 310.031
+margin_bottom = -172.182
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied10" type="Label" parent="Control/S3"]
+margin_left = -233.069
+margin_top = 226.367
+margin_right = -160.069
+margin_bottom = 245.367
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied11" type="Label" parent="Control/S3"]
+margin_left = 118.219
+margin_top = 308.818
+margin_right = 191.219
+margin_bottom = 327.818
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="P1" type="Node2D" parent="Control"]
+editor/display_folded = true
+visible = false
+
+[node name="P1" type="Sprite" parent="Control/P1"]
+position = Vector2( 269.931, 45.3669 )
+rotation = -1.5708
+scale = Vector2( 0.236678, 0.292161 )
+texture = ExtResource( 8 )
+
+[node name="recyclelogo12" type="Sprite" parent="Control/P1"]
+position = Vector2( 571.219, 304.586 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo13" type="Sprite" parent="Control/P1"]
+position = Vector2( 538.508, -182.949 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo14" type="Sprite" parent="Control/P1"]
+position = Vector2( -188.781, -90.949 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="checkbox12" type="CheckBox" parent="Control/P1"]
+margin_left = 592.507
+margin_top = 293.217
+margin_right = 616.507
+margin_bottom = 317.217
+
+[node name="checkbox13" type="CheckBox" parent="Control/P1"]
+margin_left = 559.795
+margin_top = -194.317
+margin_right = 583.795
+margin_bottom = -170.317
+
+[node name="checkbox14" type="CheckBox" parent="Control/P1"]
+margin_left = -200.069
+margin_top = -62.6331
+margin_right = -176.069
+margin_bottom = -38.6331
+
+[node name="emptied12" type="Label" parent="Control/P1"]
+margin_left = 615.219
+margin_top = 297.353
+margin_right = 688.219
+margin_bottom = 316.353
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied13" type="Label" parent="Control/P1"]
+margin_left = 582.507
+margin_top = -190.182
+margin_right = 655.507
+margin_bottom = -171.182
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied14" type="Label" parent="Control/P1"]
+margin_left = -214.069
+margin_top = -36.6331
+margin_right = -141.069
+margin_bottom = -17.6331
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="P2" type="Node2D" parent="Control"]
+editor/display_folded = true
+visible = false
+
+[node name="P2" type="Sprite" parent="Control/P2"]
+position = Vector2( 271.26, 45.3944 )
+rotation = -1.5708
+scale = Vector2( 0.236656, 0.291403 )
+texture = ExtResource( 9 )
+
+[node name="recyclelogo15" type="Sprite" parent="Control/P2"]
+position = Vector2( -196.781, -82.949 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo16" type="Sprite" parent="Control/P2"]
+position = Vector2( 725.219, 116.051 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo17" type="Sprite" parent="Control/P2"]
+position = Vector2( 564.204, -174.633 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="checkbox15" type="CheckBox" parent="Control/P2"]
+margin_left = -208.069
+margin_top = -54.6331
+margin_right = -184.069
+margin_bottom = -30.6331
+
+[node name="checkbox16" type="CheckBox" parent="Control/P2"]
+margin_left = 713.931
+margin_top = 144.367
+margin_right = 737.931
+margin_bottom = 168.367
+
+[node name="checkbox17" type="CheckBox" parent="Control/P2"]
+margin_left = 588.492
+margin_top = -185.287
+margin_right = 612.492
+margin_bottom = -161.287
+
+[node name="emptied15" type="Label" parent="Control/P2"]
+margin_left = -222.069
+margin_top = -28.6331
+margin_right = -149.069
+margin_bottom = -9.63315
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied16" type="Label" parent="Control/P2"]
+margin_left = 699.931
+margin_top = 170.367
+margin_right = 772.931
+margin_bottom = 189.367
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied17" type="Label" parent="Control/P2"]
+margin_left = 614.492
+margin_top = -180.265
+margin_right = 687.492
+margin_bottom = -161.265
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="P3" type="Node2D" parent="Control"]
+editor/display_folded = true
+visible = false
+
+[node name="P3" type="Sprite" parent="Control/P3"]
+position = Vector2( 271.26, 45.4218 )
+rotation = -1.5708
+scale = Vector2( 0.236678, 0.291403 )
+texture = ExtResource( 10 )
+
+[node name="recyclelogo18" type="Sprite" parent="Control/P3"]
+position = Vector2( 437.796, -193.813 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo19" type="Sprite" parent="Control/P3"]
+position = Vector2( -154.205, -191.813 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo20" type="Sprite" parent="Control/P3"]
+position = Vector2( 561.312, 313.901 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="recyclelogo21" type="Sprite" parent="Control/P3"]
+position = Vector2( -196.069, 155.367 )
+scale = Vector2( 0.0804835, 0.0804835 )
+texture = ExtResource( 5 )
+
+[node name="checkbox18" type="CheckBox" parent="Control/P3"]
+margin_left = 462.083
+margin_top = -204.467
+margin_right = 486.083
+margin_bottom = -180.467
+
+[node name="checkbox19" type="CheckBox" parent="Control/P3"]
+margin_left = -129.917
+margin_top = -202.467
+margin_right = -105.917
+margin_bottom = -178.467
+
+[node name="checkbox20" type="CheckBox" parent="Control/P3"]
+margin_left = 585.599
+margin_top = 303.248
+margin_right = 609.599
+margin_bottom = 327.248
+
+[node name="checkbox21" type="CheckBox" parent="Control/P3"]
+margin_left = -208.069
+margin_top = 178.104
+margin_right = -184.069
+margin_bottom = 202.104
+
+[node name="emptied18" type="Label" parent="Control/P3"]
+margin_left = 488.083
+margin_top = -199.444
+margin_right = 561.083
+margin_bottom = -180.444
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied19" type="Label" parent="Control/P3"]
+margin_left = -103.917
+margin_top = -197.444
+margin_right = -30.9169
+margin_bottom = -178.444
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied20" type="Label" parent="Control/P3"]
+margin_left = 611.599
+margin_top = 308.27
+margin_right = 684.599
+margin_bottom = 327.27
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="emptied21" type="Label" parent="Control/P3"]
+margin_left = -222.069
+margin_top = 205.367
+margin_right = -149.069
+margin_bottom = 224.367
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Emptied"
+
+[node name="backbutton" type="Button" parent="Control"]
+margin_left = 149.931
+margin_top = 105.367
+margin_right = 235.931
+margin_bottom = 134.367
+text = "Home"
+
+[connection signal="pressed" from="Control/Homepage/S1" to="Control" method="_on_S1_pressed"]
+[connection signal="pressed" from="Control/Homepage/P1" to="Control" method="_on_P1_pressed"]
+[connection signal="pressed" from="Control/Homepage/S2" to="Control" method="_on_S2_pressed"]
+[connection signal="pressed" from="Control/Homepage/P2" to="Control" method="_on_P2_pressed"]
+[connection signal="pressed" from="Control/Homepage/S3" to="Control" method="_on_S3_pressed"]
+[connection signal="pressed" from="Control/Homepage/P3" to="Control" method="_on_P3_pressed"]
+[connection signal="pressed" from="Control/backbutton" to="Control" method="_on_backbutton_pressed"]
